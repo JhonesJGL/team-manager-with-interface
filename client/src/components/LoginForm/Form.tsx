@@ -4,6 +4,7 @@ import './Form.css'
 
 interface FormProps {
     onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+    onSubmit: () => void;
 }
 
 export default function Form(props: FormProps){
@@ -25,7 +26,7 @@ export default function Form(props: FormProps){
                 </div>
                 
             </div>
-            <button className='submit-form-button'>login</button>
+            <button className='submit-form-button' onClick={props.onSubmit}>login</button>
         </div>
     )
 }

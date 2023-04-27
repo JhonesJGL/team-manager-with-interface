@@ -9,7 +9,7 @@
     "swagger-autogen": "tsnd ./src/docs/swagger.ts",
     "prestart": "npm run swagger-autogen && npm run build",
     "start": "node server",
-    "predev": "clear && npm run swagger-autogen",
+    "predev": "npm run swagger-autogen",
     "dev": "nodemon server"
   },
   "repository": {
@@ -25,8 +25,10 @@
   "homepage": "https://github.com/alpha-typescript/team-manager#readme",
   "dependencies": {
     "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
     "@types/jsonwebtoken": "^9.0.1",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
