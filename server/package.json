@@ -2,15 +2,15 @@
   "name": "team-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "swagger-autogen": "tsnd ./src/docs/swagger.ts",
     "prestart": "npm run swagger-autogen && npm run build",
-    "start": "node ./dist/server.js",
+    "start": "node server",
     "predev": "clear && npm run swagger-autogen",
-    "dev": "tsnd --respawn ./src/server.ts"
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22",
     "pg": "^8.10.0",
     "swagger": "^0.0.1",
     "swagger-jsdoc": "^6.2.8",
