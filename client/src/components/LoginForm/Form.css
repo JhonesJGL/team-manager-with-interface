@@ -7,7 +7,9 @@
     
     
     border-radius: 20px;
+    min-height: 600px;
     height: 60vh;
+    min-width: 600px;
     width: 32vw;
     box-shadow: -2px 2px 19px -4px rgba(122,122,122,0.48);
 }
