@@ -5,6 +5,7 @@ import { config } from "dotenv";
 config({ path: "config/.env" });
 import swaggerDocument from "./docs/swagger.json";
 import swaggerUi from "swagger-ui-express";
+import cors from 'cors'
 export default class App {
     public server: express.Application;
 
@@ -22,6 +23,7 @@ export default class App {
             swaggerUi.serve,
             swaggerUi.setup(swaggerDocument)
         );
+        this.server.use(cors());
     }
 
     private router() {
