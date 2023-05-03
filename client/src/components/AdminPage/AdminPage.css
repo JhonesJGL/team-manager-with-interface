@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+}
+
+.admin-header {
+    height: 5.25rem;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #EDEDED;
+    background-color: #444444 ;
+}
+
