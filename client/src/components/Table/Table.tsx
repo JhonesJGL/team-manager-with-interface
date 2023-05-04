@@ -2,10 +2,18 @@ import { useEffect, useState } from "react"
 import './Table.css'
 import UserData from "../UserData"
 
+
+
 export interface IUser {
-    id: number,
-    name: string,
-    email: string
+    id?: string;
+    username?: string;
+    email?: string;
+    firstName?: string;
+    lastName?: string;
+    password?: string;
+    team?: string | null;
+    isAdmin?: boolean;
+    isLeader?: boolean;
 }
 
 
@@ -19,7 +27,7 @@ export default function Table() {
             const data = await res.json()
             if(res.ok) {
                 setUsers(data);
-                console.log(data)
+                
             }
         }
         catch (err) {
@@ -29,32 +37,28 @@ export default function Table() {
     useEffect(() => {
         fetchData(API)
     }, [])
+
     
 
     return (
         <>
-            <table>
-                
-                    <div className="header">
-                    <thead>
-                        
-                            <th>id</th>
-                            <th>nome</th>
-                            <th>email</th>
-                            <th>Último Nome</th>
-                            <th>Senha</th>
-                            <th>Squad</th>
-                            <th>Admin</th>
-                            <th>Editar</th>
-                            <th>Deletar</th> 
-                        
-                        </thead>
-                    </div>
-                <div className="body">
+            <table> 
+                <thead> {/* Cria o header da tabela de maneira fixa sempre com este cabeçalho; */}
+                 <tr>     
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Primeiro Nome</th>
+                    <th>Último Nome</th>
+                    <th>Senha</th>
+                    <th>Squad</th>
+                    <th>Admin</th>
+                    <th>Editar</th>
+                    <th>Deletar</th> 
+                </tr>  
+                </thead>      
                     <tbody>
-                        <UserData users={users}/>
+                        <UserData users={users}/> {/* Cria o corpo da tabela baseado no fetch; */}
                     </tbody>
-                </div>
             </table>
         </>
     )
