@@ -4,9 +4,9 @@ import MyUserCard from "../MyUserCard/MyUserCard";
 
 export default function CommonUserHome() {
   return (
-    <div className="patternContainer">
+    <div className="pattern-container">
       <HomeHeader />
-      <main className="patternMainContainer">
+      <main className="pattern-main-container">
         <MyUserCard />
       </main>
     </div>

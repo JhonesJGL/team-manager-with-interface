@@ -9,5 +9,5 @@ import TeamUserHome from "./components/TeamUserHome/TeamUserHome.tsx";
 import LeaderHome from "./components/LeaderHome/LeaderHome.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <LeaderHome />
+  <CommonUserHome />
 );
