@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import Modal from '../Modal/Modal';
+import './LoginPage.css'
 import Form from '../LoginForm/Form';
 
 
@@ -53,6 +54,7 @@ export default function LoginPage() {
                 {modal === true && (
                     <Modal click={closeModal} message={"Something went wrong!"}/>
                 )} 
+                <a>Hopper</a>
                     <Form onChange={getInputs} onSubmit={login}/>      
             </div>
         </main>
