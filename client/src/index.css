@@ -1,15 +1,36 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  background-color: #dbdbdb8f;    
+
+  --primary-gray: #ededed;
+  --tertiary-gray: #2e2e2e;
+  --secondary-gray: #444444;
+
+  --button-green: #1ba862a6;
+
+  --admin-light-salmon: #ffa07a;
+  --admin-light-sky-blue: #87cefa;
+
+  --leader-light-blue: #add8e6;
+
+  --pattern-pink: #ffc0cb;
+  --pattern-light-green: #90ee90;
 }
 
-a {
-  font-weight: 500;
-  color: #313131d3;
-  text-decoration: inherit;
+* {
+  margin: 0;
+  padding: 0;
 }
-a:hover {
-  color: #2ea141d3;
+
+body {
+  background-color: var(--primary-gray);
+}
+
+button {
+  border: 0;
   cursor: pointer;
+}
+
+.icon {
+  color: var(--secondary-gray);
 }
