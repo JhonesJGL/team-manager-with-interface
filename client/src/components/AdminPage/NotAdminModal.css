@@ -25,8 +25,8 @@
     align-items: center;
     padding: 40px;
     border-radius: 20px;
-    height: 450px;
-    width: 370px;
+    height: 680px;
+    width: 400px;
     background-color: #f0f0f0;
 }
 
@@ -45,7 +45,7 @@ form input {
     border-left: 0;
     border-top: 0;
     border-right: 0;
-    height: 2.0em;
+    height: 2.5em;
     width: 30vh; 
     margin: 0.6em;
     text-indent: 5%;
@@ -58,9 +58,10 @@ form input {
 form button {
     border-radius: 8px;
     border: 1px solid transparent;
-    margin: 1em;
+    margin: 0.2em;
     padding: 0.6em 1.2em;
-    font-size: 1em;
+    font-size: 1.2em;
+    width: 15rem;
     font-weight: 500;
     font-family: inherit;
     cursor: pointer;
@@ -75,13 +76,14 @@ form button {
 
 .navigation-buttons-container {
     display: flex;
+    margin: 1rem;
     align-items: center;
     justify-content: center;
 }
 
 .return-button {
-    height: 44px;
-    width: 44px;
+    height: 3.75rem;
+    width: 3.75rem;
     margin: 3px;
     border-radius: 100px;
     border: 0;
@@ -92,15 +94,59 @@ form button {
     background-size: 30px;    
 }
 .home-button {
-    height: 44px;
-    width: 44px;
+    height: 3.75rem;
+    width: 3.75rem;
     margin: 3px;
     border-radius: 100px;
     border: 0;
     background-color: #D9D9D9;
     background-image: url('../../assets/Home.svg');
     background-position: center;
-    background-position-y: 0.4em;
+    background-position-y: center;
     background-repeat: no-repeat;
     background-size: 25px;
+}
+
+.squad-select {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0.3em;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    height: 2.0em;
+    width: 30vh; 
+    margin: 0.6em;
+    text-indent: 5%;
+    align-content: center;
+    background-color: rgba(71, 71, 71, 0.055);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.remove-squad-button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    width: 15rem;
+    cursor: pointer;
+    background-color: #a81b1ba4;
+}.remove-squad-button:hover {
+    background-color: #d61818a4
+}
+.make-admin-button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 15rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #d4d63996;
+}.make-admin-button:hover {
+    background-color: #e6e91cb6;
 }

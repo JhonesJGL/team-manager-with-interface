@@ -10,8 +10,6 @@ export default function LoginPage() {
         password: ""
     });
 
-    const [backendData, setBackendData] = useState();
-
 
     const [modal, setModal] = useState(false);
     function closeModal() {
@@ -54,7 +52,7 @@ export default function LoginPage() {
                 {modal === true && (
                     <Modal click={closeModal} message={"Something went wrong!"}/>
                 )} 
-                <a>Hopper</a>
+                
                     <Form onChange={getInputs} onSubmit={login}/>      
             </div>
         </main>
