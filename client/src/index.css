@@ -72,7 +72,7 @@ button {
 }
 
 .main-container-three-cards {
-  gap: calc((100vw - 2 * 20rem) / 4);
+  gap: calc((100vw - 3 * 20rem) / 4);
 }
 
 .pattern-card {
