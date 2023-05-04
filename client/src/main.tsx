@@ -5,7 +5,8 @@ import "./index.css";
 import AdminHome from "./components/AdminHome/AdminHome.tsx";
 import LoginPage from "./components/LoginPage/LoginPage.tsx";
 import CommonUserHome from "./components/CommonUserHome/CommonUserHome.tsx";
+import TeamUserHome from "./components/TeamUserHome/TeamUserHome.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <CommonUserHome />
+  <TeamUserHome />
 );

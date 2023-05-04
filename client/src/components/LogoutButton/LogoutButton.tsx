@@ -4,8 +4,8 @@ import "../../index.css";
 
 export default function LogoutButton() {
   return (
-    <div className="logoutContainer">
-      <button className="logoutButton" title="Logout">
+    <div className="logout-container">
+      <button className="logout-button" title="Logout">
         <LogoutIcon className="icon" />
       </button>
     </div>

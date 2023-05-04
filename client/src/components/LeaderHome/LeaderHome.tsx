@@ -3,7 +3,7 @@ import "../../index.css";
 
 export default function LeaderHome() {
   return (
-    <div className="patternContainer">
+    <div className="pattern-container">
       <HomeHeader />
     </div>
   );

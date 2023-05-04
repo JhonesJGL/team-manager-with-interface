@@ -6,7 +6,7 @@ export default function CommonUserHome() {
   return (
     <div className="patternContainer">
       <HomeHeader />
-      <main className="mainContainer">
+      <main className="patternMainContainer">
         <MyUserCard />
       </main>
     </div>
