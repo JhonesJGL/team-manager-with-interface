@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Modal from "../Modal/Modal";
 import "./LoginPage.css";
 import Form from "../LoginForm/Form";
-import AdminInitPage from "../AdminInitPage/AdminInitPage";
+import AdminHome from "../AdminHome/AdminHome";
 
 export default function LoginPage() {
   const [inputs, setInputs] = useState({

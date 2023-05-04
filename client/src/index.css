@@ -1,10 +1,10 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 
   --primary-gray: #ededed;
-  --tertiary-gray: #2e2e2e;
   --secondary-gray: #444444;
+  --tertiary-gray: #2e2e2e;
 
   --button-green: #1ba862a6;
 
@@ -26,6 +26,23 @@ body {
   background-color: var(--primary-gray);
 }
 
+.patternHeader {
+  height: 4.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--primary-gray);
+  background-color: var(--tertiary-gray);
+  font-size: 1.5em;
+}
+
+.patternHeaderTitleContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
 button {
   border: 0;
   cursor: pointer;
@@ -33,4 +50,45 @@ button {
 
 .icon {
   color: var(--secondary-gray);
+}
+
+.patternContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.patternCard {
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  color: var(--tertiary-gray);
+  text-align: center;
+  cursor: pointer;
+  /* margin-top: 7.87rem; */
+}
+
+.patternCardTitle {
+  flex: 1;
+  font-size: 2.57em;
+  padding: 2rem 1rem;
+}
+
+.patternCardDescription {
+  font-size: 1.25em;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
 }
