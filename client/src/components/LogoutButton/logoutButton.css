@@ -1,0 +1,12 @@
+.logoutContainer {
+  margin-right: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logoutButton {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
