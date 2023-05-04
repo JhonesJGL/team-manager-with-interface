@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alpha-typescript/team-manager.git"
+    "url": "git+https://github.com/JhonesJGL/team-manager-with-interface.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alpha-typescript/team-manager/issues"
+    "url": "https://github.com/JhonesJGL/team-manager-with-interface/issues"
   },
-  "homepage": "https://github.com/alpha-typescript/team-manager#readme",
+  "homepage": "https://github.com/JhonesJGL/team-manager-with-interface#readme",
   "dependencies": {
     "@types/cookie-parser": "^1.4.3",
     "@types/cors": "^2.8.13",
