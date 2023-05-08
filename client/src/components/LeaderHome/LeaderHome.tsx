@@ -1,8 +1,8 @@
 import HomeHeader from "../HomeHeader/HomeHeader";
 import "../../index.css";
-import MyUserCard from "../MyUserCard/MyUserCard";
-import SeeAndEditMyTeamCard from "../SeeAndEditMyTeamCard/SeeAndEditMyTeamCard";
-import SeeOtherTeamsCard from "../SeeOtherTeamsCard/SeeOtherTeamsCard";
+import MyUserCard from "../Cards/MyUserCard/MyUserCard";
+import SeeAndEditMyTeamCard from "../Cards/SeeAndEditMyTeamCard/SeeAndEditMyTeamCard";
+import SeeOtherTeamsCard from "../Cards/SeeOtherTeamsCard/SeeOtherTeamsCard";
 
 export default function LeaderHome() {
   return (

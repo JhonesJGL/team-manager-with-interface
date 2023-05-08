@@ -1,6 +1,7 @@
 import "./seeOtherTeamsCard.css";
-import "../../index.css";
+import "../../../index.css";
 import GroupsIcon from "@mui/icons-material/Groups";
+
 export default function SeeOtherTeamsCard() {
   return (
     <div className="see-other-teams-card-container pattern-card">

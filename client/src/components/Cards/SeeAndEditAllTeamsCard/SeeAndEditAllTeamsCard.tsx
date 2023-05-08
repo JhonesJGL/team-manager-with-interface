@@ -1,5 +1,5 @@
 import "./seeAndEditAllTeamsCard.css";
-import "../../index.css";
+import "../../../index.css";
 import GroupsIcon from "@mui/icons-material/Groups";
 
 export default function SeeAndEditAllTeamsCard() {

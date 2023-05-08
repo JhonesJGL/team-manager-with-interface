@@ -1,5 +1,5 @@
 import "./seeAndEditAllUsersCard.css";
-import "../../index.css";
+import "../../../index.css";
 import BadgeIcon from "@mui/icons-material/Badge";
 
 export default function SeeAndEditAllUsersCard() {

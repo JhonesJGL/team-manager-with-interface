@@ -1,7 +1,7 @@
 import HomeHeader from "../HomeHeader/HomeHeader";
 import "../../index.css";
-import SeeMyTeamCard from "../SeeMyTeamCard/SeeMyTeamCard";
-import MyUserCard from "../MyUserCard/MyUserCard";
+import SeeMyTeamCard from "../Cards/SeeMyTeamCard/SeeMyTeamCard";
+import MyUserCard from "../Cards/MyUserCard/MyUserCard";
 
 export default function TeamUserHome() {
   return (

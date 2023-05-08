@@ -1,6 +1,6 @@
 import HomeHeader from "../HomeHeader/HomeHeader";
 import "../../index.css";
-import MyUserCard from "../MyUserCard/MyUserCard";
+import MyUserCard from "../Cards/MyUserCard/MyUserCard";
 
 export default function CommonUserHome() {
   return (

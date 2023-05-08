@@ -1,5 +1,5 @@
 import "./myUserCard.css";
-import "../../index.css";
+import "../../../index.css";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 
 export default function MyUserCard() {
