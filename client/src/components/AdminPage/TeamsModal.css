@@ -1,0 +1,122 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #dbdbdb8f;    
+}
+
+
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.4) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    
+    width: 370px;
+    background-color: #f0f0f0;
+}
+
+form {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0.3em;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    height: 2.7em;
+    width: 30vh; 
+    margin: 0.6em;
+    text-indent: 5%;
+    
+    align-content: center;
+    background-color: rgba(71, 71, 71, 0.055);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+form button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin: 1em;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #1ba862a4;
+  }
+  button:hover {
+    background-color: #0aca6aa4;
+  }
+  button:active {
+    transform: scale(0.95);
+  }
+
+.navigation-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-button {
+    height: 44px;
+    width: 44px;
+    margin: 3px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #D9D9D9;
+    background-image: url('../../assets/Vector.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;    
+}
+.home-button {
+    height: 44px;
+    width: 44px;
+    margin: 3px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #D9D9D9;
+    background-image: url('../../assets/Home.svg');
+    background-position: center;
+    background-position-y: 0.4em;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.user-icon {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px;
+    background-image: url('../../assets/User.svg');
+}
