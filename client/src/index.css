@@ -15,6 +15,8 @@
 
   --pattern-pink: #ffc0cb;
   --pattern-light-green: #90ee90;
+
+  --pattern-border-radius: 1.25rem;
 }
 
 * {
@@ -26,7 +28,7 @@ body {
   background-color: var(--primary-gray);
 }
 
-.patternHeader {
+.pattern-header {
   height: 4.25rem;
   display: flex;
   flex-direction: row;
@@ -37,7 +39,7 @@ body {
   font-size: 1.5em;
 }
 
-.patternHeaderTitleContainer {
+.pattern-header-title-container {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -52,14 +54,14 @@ button {
   color: var(--secondary-gray);
 }
 
-.patternContainer {
+.pattern-container {
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
 }
 
-.mainContainer {
+.pattern-main-container {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -67,27 +69,34 @@ button {
   align-items: center;
 }
 
-.patternCard {
+.main-container-two-cards {
+  gap: calc((100vw - 2 * 20rem) / 3);
+}
+
+.main-container-three-cards {
+  gap: calc((100vw - 3 * 20rem) / 4);
+}
+
+.pattern-card {
   width: 20rem;
   height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 1.25rem;
+  border-radius: var(--pattern-border-radius);
   color: var(--tertiary-gray);
   text-align: center;
   cursor: pointer;
-  /* margin-top: 7.87rem; */
 }
 
-.patternCardTitle {
+.pattern-card-title {
   flex: 1;
   font-size: 2.57em;
   padding: 2rem 1rem;
 }
 
-.patternCardDescription {
+.pattern-card-description {
   font-size: 1.25em;
   padding: 0 1rem;
   margin-bottom: 2rem;

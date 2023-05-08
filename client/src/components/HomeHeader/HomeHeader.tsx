@@ -4,9 +4,9 @@ import LogoutButton from "../LogoutButton/LogoutButton";
 
 export default function HomeHeader() {
   return (
-    <header className="patternHeader">
-      <div className="patternHeaderTitleContainer">
-        <h1 className="patternHeaderTitle">Bem vindo!</h1>
+    <header className="pattern-header">
+      <div className="pattern-header-title-container">
+        <h1 className="pattern-header-title">Bem vindo!</h1>
       </div>
       <LogoutButton />
     </header>
